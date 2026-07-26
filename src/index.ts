@@ -192,3 +192,11 @@ let strArray=getArray<string>(["omair","aftab","ali"]);
 // numArray.push("hello"); now it will not allow as we mentioned generics now
 
 strArray.push("hello");  //now it will allow as we mentioned generics of strArray as string now
+
+
+
+
+function name(naam:string) : void{
+    console.log("your name is "+naam);
+}
+name("omair");
